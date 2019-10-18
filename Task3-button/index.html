@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search for countries</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form>
+        <div id="search-container">
+            <div id="search-bar">
+                <input type="text" id="searchText" class="search-txt" onkeyup="fetchCountries()" placeholder="Search for countries" autocomplete="off"/>
+                <ul class="ctry-list" id="countryList"></ul>
+            </div>
+            <div class="search-history-table" id="history">
+                <div class="history-table-header-row">
+                    <div id="col1" class="history-table-col htcol1">Search history</div>
+                    <div class="history-table-col htcol2">
+                        <a href="#" onclick="removeAllHistory()">Clear search history</a>
+                    </div>
+                </div>    
+            </div>
+            <table id="table1" class="search-history-table"></table>
+        </div>
+    </form>
+    
+    
+</body>
+
+</html>

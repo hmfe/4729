@@ -1,0 +1,98 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#search-container {
+    width: 50%;
+}
+
+.search-txt {
+    color: #000000;
+    background-color: white;
+    border: 1.5px solid lightgrey;
+    height: 45px;
+    text-align: left;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.search-history-table {
+    display: table;
+    margin-top: 20px;
+    width: 100%;
+}
+
+input,
+input:focus {
+    caret-color: #D5D5D5;
+}
+
+a {
+    color: black;
+}
+
+#countryList {
+    display: block;
+}
+
+.ctry-list {
+    max-height: 400px;
+    text-align: left;
+    overflow: hidden;
+    padding-left: 10px;
+    margin-top: 1px;
+    width: 100%;
+    color: black;
+    background-color: white;
+    border: 1.5px solid #D3D3D3;   
+}
+
+.ctry-list a {
+    line-height: 30px;
+}
+
+.history-table-header-row {
+    display: table-row;
+    border-bottom: 1.5px solid #D3D3D3;
+    line-height: 40px;
+}
+
+.history-table-col {
+    width: 50%;
+    display: table-cell;
+    border-bottom: 1.5px solid #D3D3D3;
+}
+
+.htcol1 {
+    font-weight: bolder;
+    font-size: large;
+    text-align: left;
+}
+
+.htcol2 {
+    font-size: medium;
+    font-weight: bolder;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.col1 {
+    font-weight: bold;
+    font-size: large;
+}
+
+.col2 {
+    font-size: medium;
+    font-weight: normal;
+    color: black;
+    text-align: right;
+}
+
+.delete-btn {
+    padding-left: 20px;
+    color: black;
+    cursor: pointer;
+    text-align: right;
+}
+
